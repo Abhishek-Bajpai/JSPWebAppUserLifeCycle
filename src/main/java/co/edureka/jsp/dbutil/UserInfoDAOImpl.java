@@ -18,8 +18,8 @@ import java.util.ArrayList;
 public class UserInfoDAOImpl implements UserInfoDAO {
 
 	private final String connectionURL = "jdbc:oracle:thin:@localhost:1521:XE";
-	private final String dbUser = "edureka";
-	private final String dbUserPwdString = "Dost!234";
+	private final String dbUser = "scott";
+	private final String dbUserPwdString = "welcome";
 	private String createSQL = "create table student(id number, name varchar2(30), class varchar2(30), marks number(5,3))";
 	private String inputString = null;
 	
